@@ -17,7 +17,7 @@ gachiSoundController = GachiSoundControllerImpl()
 normalSoundController = NormalSoundControllerImpl()
 
 # create ui with di
-ui = UI(controller=controller, keyboardEvents=keyboardEvents, soundController=gachiSoundController)
+ui = UI(controller=controller, keyboardEvents=keyboardEvents, soundController=normalSoundController)
 
 ui.createWindow()
 
